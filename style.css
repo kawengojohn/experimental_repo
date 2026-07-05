@@ -1,4 +1,10 @@
 .gallery{
-    padding: 5%;
-    display: flex;
+    display: inline-block;
+    border: 1px solid rgb(197, 184, 184);
+}
+.gallery .describe{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
