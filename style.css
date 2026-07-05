@@ -1,10 +1,14 @@
 .gallery{
-    display: inline-block;
-    border: 1px solid rgb(197, 184, 184);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 .gallery .describe{
     padding: 10px;
     text-align: center;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.at_top{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
