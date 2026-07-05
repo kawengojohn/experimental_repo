@@ -1,7 +1,6 @@
 .gallery{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    display: inline-block;
+    border: 1px solid rgb(197, 184, 184);
 }
 .gallery .describe{
     padding: 10px;
