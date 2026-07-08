@@ -11,7 +11,7 @@ body{
     grid-auto-rows: 100px;
     gap: 20px;
     width: 100%;
-    padding: 1%;
+    padding: 10%;
 }
 .insider{
     background: #007acc;
