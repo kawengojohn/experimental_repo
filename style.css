@@ -1,13 +1,24 @@
-.gallery{
-    display: inline-block;
-    border: 1px solid rgb(197, 184, 184);
+body{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    min-height: 100vh;
+    margin: 0;
 }
-.gallery .describe{
-    padding: 10px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.fold{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 100px;
+    gap: 20px;
+    width: 100%;
+    padding: 1%;
 }
-.at_top{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.insider{
+    background: #007acc;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 12px;
 }
