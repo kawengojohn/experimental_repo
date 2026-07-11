@@ -1,18 +1,48 @@
 #folder{
     display: grid;
-    grid-gap: 3px;
+    grid-gap: 4px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 40px 200px 40px;
+    grid-template-rows: 40px 250px 40px;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 .header{
-    background-color: rgb(177, 150, 116);
+    background-color: rgb(152, 123, 182);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    grid-column: 1 / 3;
 }
 .menu{
-    background-color: rgb(197, 169, 133)
+    background-color: rgb(152, 123, 182);
+    border-radius: 10px;
+    text-align: center;
 }
 .content{
-    background-color: rgb(119, 133, 160);
+    background-color: rgb(71, 160, 130);
+    border-radius: 10px;
+    text-align: center;
 }
 .footer{
-    background-color: rgb(70, 108, 141);
+    background-color: rgb(71, 160, 130);
+    border-radius: 10px;
+    text-align: center;
+    grid-column: 1 / 3;
 }
