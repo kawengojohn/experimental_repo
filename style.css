@@ -1,24 +1,18 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    min-height: 100vh;
-    margin: 0;
-}
-.fold{
+#folder{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 100px;
-    gap: 20px;
-    width: 100%;
-    padding: 10%;
+    grid-gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px 200px 40px;
 }
-.insider{
-    background: #007acc;
-    color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    border-radius: 12px;
+.header{
+    background-color: rgb(177, 150, 116);
+}
+.menu{
+    background-color: rgb(197, 169, 133)
+}
+.content{
+    background-color: rgb(119, 133, 160);
+}
+.footer{
+    background-color: rgb(70, 108, 141);
 }
