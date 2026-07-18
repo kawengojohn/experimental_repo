@@ -6,6 +6,12 @@ body{
 .item{
     background: rgb(102, 65, 136);
     border-radius: 12px;
+    width: 200px;
+}
+.item img{
+    width: 200px;
+    border-radius: 5px;
+    object-fit: cover;
 }
 /*.container{
     display: grid;
@@ -15,6 +21,7 @@ body{
 */
 .container{
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
