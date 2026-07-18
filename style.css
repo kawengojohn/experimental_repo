@@ -6,10 +6,10 @@ body{
 .item{
     background: rgb(102, 65, 136);
     border-radius: 12px;
-    width: 200px;
+    width: 100px;
 }
 .item img{
-    width: 200px;
+    width: 100px;
     border-radius: 5px;
     object-fit: cover;
 }
