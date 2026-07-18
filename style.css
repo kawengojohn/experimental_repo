@@ -6,11 +6,11 @@ body{
 .item{
     background: rgb(102, 65, 136);
     border-radius: 12px;
-    width: 130px;
+    width: 150px;
     text-align: center;
 }
 .item img{
-    width: 130px;
+    width: 150px;
     border-radius: 5px;
     object-fit: cover;
 }
