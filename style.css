@@ -3,6 +3,13 @@ body{
     align-items: center;
     justify-content: center;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    overflow: hidden;
+}
 .item{
     background: rgb(102, 65, 136);
     border-radius: 12px;
@@ -14,11 +21,12 @@ body{
     border-radius: 5px;
     object-fit: cover;
 }
-.container{
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    overflow: hidden;
+
+h3{
+    padding: 10px;
+    margin: 0;
+}
+p{
+    padding: 5px;
+    margin: 0;
 }
